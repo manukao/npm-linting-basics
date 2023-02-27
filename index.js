@@ -5,7 +5,7 @@ function toggleButton() {
     const link = card.querySelector('[data-js="link"]');
     const arrow = card.querySelector('[data-js="arrow"]');
     button.addEventListener('click', () => {
-      link.classList.toggle('hide');
+      link.classList.toggle('hidden');
       arrow.classList.toggle('rotate');
     });
   });
