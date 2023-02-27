@@ -11,7 +11,7 @@ function toggleButton() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', toggleButton);
+toggleButton();
 
 /* vs old code:
 function toggleButton() {
